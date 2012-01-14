@@ -1,0 +1,338 @@
+<!doctype html>  
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	
+	<title>Online Beer Store</title>
+	
+	<!--  Mobile viewport optimized: j.mp/bplateviewport -->
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- Mobile IE needs ClearType for smoothing fonts -->
+	<meta http-equiv="cleartype" content="on">
+	
+	<!-- StyleSheets under here -->
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.css" />
+			<link rel="stylesheet" href="css/style.css" />
+	
+	
+	<!-- JavaScript is normally at the end of the body, except for Modernizr which enables HTML5 elements & feature detects -->
+	<script src="js/libs/modernizr.custom.min.js"></script>
+
+</head>
+<body>
+
+	<div data-role="page" id="home">
+	
+		<div data-role="header" data-position="fixed">
+			<h1>Online Beer Store</h1>
+		</div>
+		
+		<div data-role="controlgroup">
+			<a href="#singles" data-role="button" data-theme="a" data-icon="arrow-r" data-iconpos="right">Single Beers</a>
+			<a href="#6pack" data-role="button" data-theme="a"data-icon="arrow-r" data-iconpos="right">6 Pack Beers</a>
+			<a href="#12pack" data-role="button" data-theme="a"data-icon="arrow-r" data-iconpos="right">12 Pack Beers</a>
+			<a href="#24pack" data-role="button" data-theme="a"data-icon="arrow-r" data-iconpos="right">24 Pack Beers</a>
+			<a href="#kegs" data-role="button" data-theme="a"data-icon="arrow-r" data-iconpos="right">Keg Beers</a>
+		</div>
+		
+		<div data-role="footer" data-position="fixed">
+			<h4>Footer</h4>
+		</div>
+		
+	</div>
+	
+	<div data-role="page" id="singles" data-add-back-btn="true">
+	
+		<div data-role="header" data-position="fixed">
+			<h1>Single Beers</h1>
+		</div>
+		
+		<div data-role="content">
+			<ul data-role="listview">
+				<li>
+					<a href="singles.html">
+						<img src="images/beer.png" style="padding: 5px;" width="60px" height="60px" />
+						<h3>Rogue Light</h3>
+						<p>Check out our selection of Rogue "S" Light Beers</p>
+					</a>
+				</li>
+				
+				<li>
+					<a href="select.html">
+						<img src="images/beer.png" style="padding: 5px;" width="60px" height="60px" />
+						<h3>Rogue Select</h3>
+						<p>Check out our selection of Rogue "S" Select Beers</p>
+					</a>
+				</li>
+				
+				<li>
+					<a href="original.html">
+						<img src="images/beer.png" style="padding: 5px;" width="60px" height="60px" />
+						<h3>Rogue Original</h3>
+						<p>Check out our selection of Rogue "S" Original Beers</p>
+					</a>
+				</li>
+				
+				<li>
+					<a href="black.html">
+						<img src="images/beer.png" style="padding: 5px;" width="60px" height="60px" />
+						<h3>Rogue Black</h3>
+						<p>Check out our selection of Rogue "S" Black Beers</p>
+					</a>
+				</li>
+				
+				<li>
+					<a href="ale.html">
+						<img src="images/beer.png" style="padding: 5px;" width="60px" height="60px" />
+						<h3>Rogue Ale</h3>
+						<p>Check out our selection of Rogue "S" Ale Beers</p>
+					</a>
+				</li>																
+
+			</ul>
+		</div>
+		
+		<div data-role="footer" data-position="fixed">
+			<h4>Footer</h4>
+		</div>
+		
+	</div>
+	
+	<div data-role="page" id="6pack" data-add-back-btn="true">
+	
+		<div data-role="header" data-position="fixed">
+			<h1>6 Pack Beers</h1>
+		</div>
+		
+		<div data-role="content">
+			<ul data-role="listview">
+				<li>
+					<a href="singles.html">
+						<img src="images/beer.png" style="padding: 5px;" width="60px" height="60px" />
+						<h3>Rogue Light</h3>
+						<p>Check out our selection of Rogue 6PK Light Beers</p>
+					</a>
+				</li>
+				
+				<li>
+					<a href="select.html">
+						<img src="images/beer.png" style="padding: 5px;" width="60px" height="60px" />
+						<h3>Rogue Select</h3>
+						<p>Check out our selection of Rogue 6PK Select Beers</p>
+					</a>
+				</li>
+				
+				<li>
+					<a href="original.html">
+						<img src="images/beer.png" style="padding: 5px;" width="60px" height="60px" />
+						<h3>Rogue Original</h3>
+						<p>Check out our selection of Rogue 6PK Original Beers</p>
+					</a>
+				</li>
+				
+				<li>
+					<a href="black.html">
+						<img src="images/beer.png" style="padding: 5px;" width="60px" height="60px" />
+						<h3>Rogue Black</h3>
+						<p>Check out our selection of Rogue 6PK Black Beers</p>
+					</a>
+				</li>
+				
+				<li>
+					<a href="ale.html">
+						<img src="images/beer.png" style="padding: 5px;" width="60px" height="60px" />
+						<h3>Rogue Ale</h3>
+						<p>Check out our selection of Rogue 6PK Ale Beers</p>
+					</a>
+				</li>																
+
+			</ul>
+		</div>
+		
+		<div data-role="footer" data-position="fixed">
+			<h4>Footer</h4>
+		</div>
+		
+	</div>
+	
+	<div data-role="page" id="12pack" data-add-back-btn="true">
+	
+		<div data-role="header" data-position="fixed">
+			<h1>12 Pack Beers</h1>
+		</div>
+		
+		<div data-role="content">
+			<ul data-role="listview">
+				<li>
+					<a href="singles.html">
+						<img src="images/beer.png" style="padding: 5px;" width="60px" height="60px" />
+						<h3>Rogue Light</h3>
+						<p>Check out our selection of Rogue 12PK Light Beers</p>
+					</a>
+				</li>
+				
+				<li>
+					<a href="select.html">
+						<img src="images/beer.png" style="padding: 5px;" width="60px" height="60px" />
+						<h3>Rogue Select</h3>
+						<p>Check out our selection of Rogue 12PK Select Beers</p>
+					</a>
+				</li>
+				
+				<li>
+					<a href="original.html">
+						<img src="images/beer.png" style="padding: 5px;" width="60px" height="60px" />
+						<h3>Rogue Original</h3>
+						<p>Check out our selection of Rogue 12PK Original Beers</p>
+					</a>
+				</li>
+				
+				<li>
+					<a href="black.html">
+						<img src="images/beer.png" style="padding: 5px;" width="60px" height="60px" />
+						<h3>Rogue Black</h3>
+						<p>Check out our selection of Rogue 12PK Black Beers</p>
+					</a>
+				</li>
+				
+				<li>
+					<a href="ale.html">
+						<img src="images/beer.png" style="padding: 5px;" width="60px" height="60px" />
+						<h3>Rogue Ale</h3>
+						<p>Check out our selection of Rogue 12PK Ale Beers</p>
+					</a>
+				</li>																
+
+			</ul>
+		</div>
+		
+		<div data-role="footer" data-position="fixed">
+			<h4>Footer</h4>
+		</div>
+		
+	</div>
+	
+	<div data-role="page" id="24pack" data-add-back-btn="true">
+	
+		<div data-role="header" data-position="fixed">
+			<h1>24 Pack Beers</h1>
+		</div>
+		
+		<div data-role="content">
+			<ul data-role="listview">
+				<li>
+					<a href="singles.html">
+						<img src="images/beer.png" style="padding: 5px;" width="60px" height="60px" />
+						<h3>Rogue Light</h3>
+						<p>Check out our selection of Rogue 24PK Light Beers</p>
+					</a>
+				</li>
+				
+				<li>
+					<a href="select.html">
+						<img src="images/beer.png" style="padding: 5px;" width="60px" height="60px" />
+						<h3>Rogue Select</h3>
+						<p>Check out our selection of Rogue 24PK Select Beers</p>
+					</a>
+				</li>
+				
+				<li>
+					<a href="original.html">
+						<img src="images/beer.png" style="padding: 5px;" width="60px" height="60px" />
+						<h3>Rogue Original</h3>
+						<p>Check out our selection of Rogue 24PK Original Beers</p>
+					</a>
+				</li>
+				
+				<li>
+					<a href="black.html">
+						<img src="images/beer.png" style="padding: 5px;" width="60px" height="60px" />
+						<h3>Rogue Black</h3>
+						<p>Check out our selection of Rogue 24PK Black Beers</p>
+					</a>
+				</li>
+				
+				<li>
+					<a href="ale.html">
+						<img src="images/beer.png" style="padding: 5px;" width="60px" height="60px" />
+						<h3>Rogue Ale</h3>
+						<p>Check out our selection of Rogue 24PK Ale Beers</p>
+					</a>
+				</li>																
+
+			</ul>
+		</div>
+		
+		<div data-role="footer" data-position="fixed">
+			<h4>Footer</h4>
+		</div>
+		
+	</div>
+	
+	<div data-role="page" id="kegs" data-add-back-btn="true">
+	
+		<div data-role="header" data-position="fixed">
+			<h1>Keg Beers</h1>
+		</div>
+		
+		<div data-role="content">
+			<ul data-role="listview">
+				<li>
+					<a href="singles.html">
+						<img src="images/beer.png" style="padding: 5px;" width="60px" height="60px" />
+						<h3>Rogue Light</h3>
+						<p>Check out our selection of Rogue Light Keg Beers</p>
+					</a>
+				</li>
+				
+				<li>
+					<a href="select.html">
+						<img src="images/beer.png" style="padding: 5px;" width="60px" height="60px" />
+						<h3>Rogue Select</h3>
+						<p>Check out our selection of Rogue Select Keg Beers</p>
+					</a>
+				</li>
+				
+				<li>
+					<a href="original.html">
+						<img src="images/beer.png" style="padding: 5px;" width="60px" height="60px" />
+						<h3>Rogue Original</h3>
+						<p>Check out our selection of Rogue Original Keg Beers</p>
+					</a>
+				</li>
+				
+				<li>
+					<a href="black.html">
+						<img src="images/beer.png" style="padding: 5px;" width="60px" height="60px" />
+						<h3>Rogue Black</h3>
+						<p>Check out our selection of Rogue Black Keg Beers</p>
+					</a>
+				</li>
+				
+				<li>
+					<a href="ale.html">
+						<img src="images/beer.png" style="padding: 5px;" width="60px" height="60px" />
+						<h3>Rogue Ale</h3>
+						<p>Check out our selection of Rogue Ale Keg Beers</p>
+					</a>
+				</li>																
+
+			</ul>
+		</div>
+		
+		<div data-role="footer" data-position="fixed">
+			<h4>Footer</h4>
+		</div>
+		
+	</div>						
+
+	<!-- JavaScript under here -->
+	<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js"></script>
+
+</body>
+</html>
