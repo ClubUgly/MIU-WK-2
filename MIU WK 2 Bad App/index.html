@@ -59,7 +59,8 @@
 				</a></li>
 				
 			</ul>
-		</div>
+			<a href="#beernews" data-role="button">Beer Specials</a> 			
+		</div> 
 		
 		<div data-role="footer" data-position="fixed" data-id="home">
 			<div data-role="navbar">
@@ -707,7 +708,81 @@
 			
 			</div>
 		</div>			
-	</div>		
+	</div>
+	
+<!--News Feed-->
+	
+	<div data-role="page" id="beernews" data-add-back-btn="true">
+	
+		<div data-role="header" data-position="fixed">
+			<h1>Beer Specials</h1>
+		</div>
+		
+		<div data-role="content">
+			<ul data-role="listview" data-filter="true" data-inset="true">
+			<li data-role="list-divider">Today's Specials</li>
+				<li>
+					<a href="#">
+						<img src="images/beer.png" style="padding: 5px;" width="60px" height="60px" />
+						<h3>Rogue Light Singles 2 for $3</h3>
+						<p>Ends: January 18, 2012 - 12:00 am</p>
+						<span class="ui-li-count">36</span>
+					</a>
+				</li>
+				
+				<li>
+					<a href="#">
+						<img src="images/beer.png" style="padding: 5px;" width="60px" height="60px" />
+						<h3>Rogue Select 6pack $5.00</h3>
+						<p>Ends: January 18, 2012 - 12:00 am</p>
+						<span class="ui-li-count">21</span>
+					</a>
+				</li>
+				
+				<li>
+					<a href="#">
+						<img src="images/beer.png" style="padding: 5px;" width="60px" height="60px" />
+						<h3>Rogue Original 24pack $19.99 incl. tax</h3>
+						<p>Ends: January 18, 2012 - 12:00 am</p>
+						<span class="ui-li-count">42</span>
+					</a>
+				</li>
+				<li data-role="list-divider">This Month's Specials</li>
+				<li>
+					<a href="#">
+						<img src="images/beer.png" style="padding: 5px;" width="60px" height="60px" />
+						<h3>Rogue Black 12pack - $11.99 incl. tax</h3>
+						<p>Ends: January 31, 2012 - 12:00 am</p>
+						<span class="ui-li-count">5</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/keg.png" style="padding: 5px;" width="60px" height="60px" />
+						<h3>Rogue Light 1/4 Kegs $39.00</h3>
+						<p>Ends: January 31, 2012 - 12:00 am</p>
+						<span class="ui-li-count">0</span>
+					</a>
+				</li>																
+
+			</ul>
+		</div>
+		
+		<div data-role="footer" data-position="fixed" data-id="home">
+			<div data-role="navbar">
+			
+				<ul>
+				
+					<li><a href="#home" data-icon="home">Home</a></li>
+					<li><a href="#favorite" data-icon="star">Favorite</a></li>
+					<li><a href="#search" data-icon="search">Search</a></li>
+					<li><a href="#help" data-icon="info">Help</a></li>
+				
+				</ul>
+			
+			</div>
+		</div>
+	</div>			
 	<!-- JavaScript under here -->
 	<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
 	<script src="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js"></script>
